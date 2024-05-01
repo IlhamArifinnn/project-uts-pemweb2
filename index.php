@@ -256,7 +256,7 @@
     <section id="departments" class="departments section-bg">
       <div class="container">
         <div class="section-title">
-          <h2>Jenis Layanan Kami</h2>
+          <h2>Departemen</h2>
           <p>
             Puskesmas kami menyediakan berbagai layanan kesehatan untuk memenuhi kebutuhan masyarakat. Kami berkomitmen untuk memberikan pelayanan yang profesional dan berkualitas.
           </p>
@@ -764,7 +764,7 @@
               Kota Sehat, Puskesma <br />
               Indonesia <br /><br />
               <strong>Telepon:</strong> +62 123 4567 890<br />
-              <strong>Email:</strong> puskesma@example.com<br />
+              <strong>Email:</strong> puskema@gmail.com<br />
             </p>
           </div>
 
