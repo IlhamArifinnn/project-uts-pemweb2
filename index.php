@@ -65,7 +65,8 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="login.php" class="appointment-btn scrollto"><span class="d-none d-md-inline"></span>Login</a>
+      <a href="login.php" class="appointment-btn scrollto"><span class="d-none d-md-inline"></span>Sign In</a>
+      <a href="registrasi.php" class="appointment-btn scrollto"><span class="d-none d-md-inline"></span>Sign Up</a>
       <!-- <a href="login.php" class="btn btn-secondary rounded-pill ms-2 d-none d-lg-inline"><span class="d-none d-md-inline">Masuk</span></a> -->
     </div>
   </header>
@@ -718,7 +719,7 @@
             </div>
           </div>
           <div class="col-lg-8 mt-5 mt-lg-0">
-            <form action="  " method="post" role="form" class="php-email-form">
+            <form action="" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nama Anda" required />

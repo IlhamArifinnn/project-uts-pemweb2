@@ -13,7 +13,7 @@ if (isset($_POST["logout"])) {
     <!-- Brand Logo -->
     <a href="../data/admin.php" class="brand-link">
         <i class="bi bi-hospital ml-3"></i>
-        <span class="brand-text font-weight-light ml-2">Admin Puskesmas</span>
+        <span class="brand-text font-weight-light ml-2">Admin Puskema</span>
     </a>
 
     <!-- Sidebar -->
