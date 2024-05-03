@@ -56,7 +56,7 @@ $nomor = 1;
                                             <th>Kategori</th>
                                             <th>Telepon</th>
                                             <th>Alamat</th>
-                                            <th>Id Unit Kerja</th>
+                                            <!-- <th>Id Unit Kerja</th> -->
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -73,7 +73,7 @@ $nomor = 1;
                                             echo "<td>" . $row['kategori'] . "</td>";
                                             echo "<td>" . $row['telpon'] . "</td>";
                                             echo "<td>" . $row['alamat'] . "</td>";
-                                            echo "<td>" . $row['unit_kerja_id'] . "</td>";
+                                            // echo "<td>" . $row['unit_kerja_id'] . "</td>";
                                             echo "<td>
                                             <a href='../view/view_paramedik.php?id=" . $row['id'] . "' class='btn btn-success btn-sm mr-2 mb-2'>View</a>
                                             <a href='../update/update_paramedik.php?id=" . $row['id'] . "' class='btn btn-info btn-sm mr-2 mb-2' >Update</a>

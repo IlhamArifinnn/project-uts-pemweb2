@@ -4,11 +4,7 @@ require_once "../dbkoneksi.php";
 include_once "../header.php";
 include_once "../sidebar.php";
 
-
-
 ?>
-
-
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">

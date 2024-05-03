@@ -51,7 +51,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto"><a href="">Puskesma</a></h1>
+      <h1 class="logo me-auto"><a href="">Puskesma </a></h1>
       <!-- Uncomment baris di bawah ini jika Anda lebih suka menggunakan logo gambar -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -65,7 +65,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="login.php" class="appointment-btn scrollto"><span class="d-none d-md-inline"></span>Sign In</a>
+      <a href="login.php" class="appointment-btn scrollto "><span class="d-none d-md-inline"></span>Sign In</a>
       <a href="registrasi.php" class="appointment-btn scrollto"><span class="d-none d-md-inline"></span>Sign Up</a>
       <!-- <a href="login.php" class="btn btn-secondary rounded-pill ms-2 d-none d-lg-inline"><span class="d-none d-md-inline">Masuk</span></a> -->
     </div>

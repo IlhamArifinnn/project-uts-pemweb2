@@ -24,15 +24,19 @@
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="gender" class="col-3 col-form-label">Jenis Kelamin</label>
+                    <label class="col-3 col-form-label">Jenis Kelamin</label>
                     <div class="col-8">
-                        <select id="gender" name="gender" class="custom-select">
-                            <option value="">Pilih Jenis Kelamin</option>
-                            <option value="L">Laki-Laki</option>
-                            <option value="P">Perempuan</option>
-                        </select>
+                        <div class="form-check form-check-inline">
+                            <input required class="form-check-input" type="radio" name="gender" id="gender_laki" value="L">
+                            <label class="form-check-label" for="gender_laki">Laki-Laki</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input required class="form-check-input" type="radio" name="gender" id="gender_perempuan" value="P">
+                            <label class="form-check-label" for="gender_perempuan">Perempuan</label>
+                        </div>
                     </div>
                 </div>
+
                 <div class="form-group row">
                     <label for="tmp_lahir" class="col-3 col-form-label">Tempat Lahir</label>
                     <div class="col-8">

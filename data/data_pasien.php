@@ -62,7 +62,7 @@ $nomor = 1;
                                             <th>Jenis Kelamin</th>
                                             <th>Email</th>
                                             <th>Alamat</th>
-                                            <th>Kelurahan ID</th>
+                                            <!-- <th>Kelurahan ID</th> -->
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -79,7 +79,7 @@ $nomor = 1;
                                             echo "<td>" . $row['gender'] . "</td>";
                                             echo "<td>" . $row['email'] . "</td>";
                                             echo "<td>" . $row['alamat'] . "</td>";
-                                            echo "<td>" . $row['kelurahan_id'] . "</td>";
+                                            // echo "<td>" . $row['kelurahan_id'] . "</td>";
                                             echo "<td>";
                                             echo "<a href='../view/view_pasien.php?id=" . $row['id'] . "' class='btn btn-success btn-sm mr-2 mb-2'>View</a>";
                                             echo "<a href='../update/update_pasien.php?id=" . $row['id'] . "' class='btn btn-info btn-sm mr-2 mb-2'>Update</a>";
