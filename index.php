@@ -51,9 +51,12 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto"><a href="">Puskesma </a></h1>
-      <!-- Uncomment baris di bawah ini jika Anda lebih suka menggunakan logo gambar -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      <div class="d-flex align-items-center me-auto">
+        <a href="index.php" class="logo"><img src="assets/img/hospital.png" alt="" class="img-fluid" width="35"></a>
+        <h1 class="logo ms-2"><a hrf="">Puskema </a></h1>
+        <!-- Uncomment baris di bawah ini jika Anda lebih suka menggunakan logo gambar -->
+      </div>
+
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
@@ -719,7 +722,7 @@
             </div>
           </div>
           <div class="col-lg-8 mt-5 mt-lg-0">
-            <form action="" method="post" role="form" class="php-email-form">
+            <form action="#!" method="post" role="form" class="php-email-form" id="myForm">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nama Anda" required />
@@ -735,7 +738,7 @@
                 <textarea class="form-control" name="message" rows="5" placeholder="Pesan Anda" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Memuat</div>
+                <!-- <div class="loading">Memuat</div> -->
                 <div class="error-message"></div>
                 <div class="sent-message">Pesan Anda telah terkirim. Terima kasih!</div>
               </div>
@@ -823,6 +826,24 @@
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.10/dist/sweetalert2.all.min.js"></script>
+
+  <script>
+    document.getElementById('myForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      Swal.fire({
+        title: 'Pesan Anda telah terkirim!',
+        text: 'Terima kasih atas pesan Anda.',
+        icon: 'success',
+        confirmButtonText: 'OK'
+      }).then(function() {
+        // Reset form fields
+        document.getElementById('myForm').reset();
+      });
+    });
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>

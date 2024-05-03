@@ -64,7 +64,7 @@ $(function () {
                     value += "k";
                   }
 
-                  return "$" + value;
+                  return "Rp" + value;
                 },
               },
               ticksStyle
