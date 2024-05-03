@@ -90,15 +90,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <input type="date" class="form-control" id="tgl_lahir" name="tgl_lahir" value="<?php echo $pasien['tgl_lahir']; ?>">
                 </div>
             </div>
+
             <div class="form-group row">
                 <label for="gender" class="col-4 col-form-label">Jenis Kelamin:</label>
                 <div class="col-8">
-                    <select class="form-control" id="gender" name="gender">
-                        <option value="L" <?php if ($pasien['gender'] == 'L') echo 'selected'; ?>>Laki-Laki</option>
-                        <option value="P" <?php if ($pasien['gender'] == 'P') echo 'selected'; ?>>Perempuan</option>
-                    </select>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="gender_l" value="L" <?php if ($pasien['gender'] == 'L') echo 'checked'; ?>>
+                        <label class="form-check-label" for="gender_l">Laki-Laki</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="gender_p" value="P" <?php if ($pasien['gender'] == 'P') echo 'checked'; ?>>
+                        <label class="form-check-label" for="gender_p">Perempuan</label>
+                    </div>
                 </div>
             </div>
+
+
             <div class="form-group row">
                 <label for="email" class="col-4 col-form-label">Email:</label>
                 <div class="col-8">

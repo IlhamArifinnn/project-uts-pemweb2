@@ -88,7 +88,7 @@ $nomor = 1;
 
                             </div>
                             <!-- /.card -->
-                            <div class="card-footer">
+                            <!-- <div class="card-footer">
                                 <p class="mb-0 fst-italic text-secondary">Keterangan unit kerja:</p>
                                 <ul class="text-secondary">
                                     <li>1: Administrasi</li>
@@ -97,7 +97,7 @@ $nomor = 1;
                                     <li>4: Poli Umum</li>
                                     <li>5: Poli Gigi</li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

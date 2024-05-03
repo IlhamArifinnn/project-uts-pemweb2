@@ -70,12 +70,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="form-group row">
                 <label for="gender" class="col-4 col-form-label">Jenis Kelamin:</label>
                 <div class="col-8">
-                    <select class="form-control" id="gender" name="gender">
-                        <option value="L" <?php if ($paramedik['gender'] == 'L') echo 'selected'; ?>>Laki-Laki</option>
-                        <option value="P" <?php if ($paramedik['gender'] == 'P') echo 'selected'; ?>>Perempuan</option>
-                    </select>
+                    <div class="form-check form-check-inline">
+                        <input required class="form-check-input" type="radio" name="gender" id="gender_laki" value="L" <?php if ($paramedik['gender'] == 'L') echo 'checked'; ?>>
+                        <label class="form-check-label" for="gender_laki">Laki-Laki</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input required class="form-check-input" type="radio" name="gender" id="gender_perempuan" value="P" <?php if ($paramedik['gender'] == 'P') echo 'checked'; ?>>
+                        <label class="form-check-label" for="gender_perempuan">Perempuan</label>
+                    </div>
                 </div>
             </div>
+
             <div class="form-group row">
                 <label for="tmp_lahir" class="col-4 col-form-label">Tempat Lahir:</label>
                 <div class="col-8">

@@ -94,7 +94,7 @@ $nomor = 1;
 
                             </div>
                             <!-- /.card -->
-                            <div class="card-footer">
+                            <!-- <div class="card-footer">
                                 <p class="mb-0 fst-italic text-secondary">Keterangan kelurahan:</p>
                                 <ul class="text-secondary">
                                     <li>1: Beji</li>
@@ -109,7 +109,7 @@ $nomor = 1;
                                     <li>10: Sawangan</li>
                                     <li>11: Bojongsari</li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
