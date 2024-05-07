@@ -1,8 +1,8 @@
 <?php
 //1. sertakan koneksi database
 require_once '../dbkoneksi.php';
-include_once '../header.php';
-include_once '../sidebar.php';
+include_once '../layout/header.php';
+include_once '../layout/sidebar.php';
 
 //2 Query untuk mendapatkan data pasien
 $query = $dbh->query('SELECT * FROM periksa');
@@ -123,4 +123,4 @@ $nomor = 1;
 
 
     <?php
-    include_once '../footer.php';
+    include_once '../layout/footer.php';

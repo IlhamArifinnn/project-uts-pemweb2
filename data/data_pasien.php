@@ -1,8 +1,8 @@
 <?php
 //1. sertakan koneksi database
 require '../dbkoneksi.php';
-include_once '../header.php';
-include_once '../sidebar.php';
+include_once '../layout/header.php';
+include_once '../layout/sidebar.php';
 
 
 //2 Query untuk mendapatkan data pasien
@@ -132,4 +132,4 @@ $nomor = 1;
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
     <?php
-    include_once '../footer.php';
+    include_once '../layout/footer.php';

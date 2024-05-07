@@ -1,8 +1,8 @@
 <?php
 
 require_once "../dbkoneksi.php";
-include_once "../header.php";
-include_once "../sidebar.php";
+include_once "../layout/header.php";
+include_once "../layout/sidebar.php";
 
 ?>
 
@@ -222,4 +222,4 @@ include_once "../sidebar.php";
 
 
 <?php
-include_once "../footer.php";
+include_once "../layout/footer.php";

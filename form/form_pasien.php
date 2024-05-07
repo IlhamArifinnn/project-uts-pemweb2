@@ -5,9 +5,6 @@ require_once '../dbkoneksi.php';
 // Query untuk mendapatkan data kelurahan
 $query_kelurahan = $dbh->query('SELECT * FROM kelurahan');
 
-// Include header dan sidebar (jika diperlukan)
-// include_once "../header.php";
-// include_once "../sidebar.php";
 ?>
 
 <!doctype html>
@@ -78,14 +75,7 @@ $query_kelurahan = $dbh->query('SELECT * FROM kelurahan');
                     <label for="email" class="col-3 col-form-label">Email</label>
                     <div class="col-8">
                         <input required id="email" name="email" type="email" class="form-control">
-                    </div>
-                </div>
-
-                <div class="form-group row">
-                    <label for="alamat" class="col-3 col-form-label">Alamat</label>
-                    <div class="col-8">
-                        <textarea name="alamat" id="alamat" cols="30" rows="3" class="form-control"></textarea>
-                    </div>
+kkkk                    </div>
                 </div>
 
                 <div class="form-group row">

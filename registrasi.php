@@ -70,7 +70,8 @@ if (isset($_POST["daftar"])) {
                             </div>
                             <button type="submit" class="btn btn-primary w-100" name="daftar">Daftar sekarang</button>
                         </form>
-                        <p class="text-center mt-3 mb-0">Sudah punya akun? <a href="login.php" class="text-decoration-none" >Login</a></p>
+                        <button class="btn btn-secondary w-100 mt-2" onclick="window.location.href='index.php';">Kembali</button>
+                        <p class="text-center mt-3 mb-0">Sudah punya akun? <a href="login.php" class="text-decoration-none">Login</a></p>
                     </div>
                 </div>
             </div>

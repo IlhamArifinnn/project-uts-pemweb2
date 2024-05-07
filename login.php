@@ -23,6 +23,7 @@ if (isset($_POST["login"])) {
         $_SESSION["username"] = $result['username'];
         $_SESSION["is_login"] = true;
 
+
         header("Location: data/admin.php");
         exit;
     } else {
@@ -71,8 +72,12 @@ $dbh = null;
         <div class="row justify-content-center">
             <div class="col-md-6 col-lg-4">
                 <form class="login-form p-4" method="post" action="login.php">
+                    <?php if (!empty($login_message)) : ?>
+                        <div class="alert alert-danger mt-2" role="alert">
+                            <?php echo $login_message; ?>
+                        </div>
+                    <?php endif; ?>
                     <h3 class="mb-4">Login Akun</h3>
-
                     <div class="mb-3">
                         <label for="username" class="form-label">Username</label>
                         <input type="text" class="form-control" id="username" name="username" placeholder="Username: admin" required>
@@ -82,8 +87,12 @@ $dbh = null;
                         <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" id="password" name="password" placeholder="Password: 123" required>
                     </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary w-100" name="login">Login sekarang</button>
+                        <a href="index.php" class="btn btn-secondary w-100 mt-2">Kembali</a>
+                    </div>
 
-                    <button type="submit" class="btn btn-primary w-100" name="login">Login sekarang</button>
+
 
                     <p class="text-center mt-3 mb-0">Belum punya akun? <a href="registrasi.php" class="text-decoration-none">Daftar sekarang</a></p>
                 </form>
