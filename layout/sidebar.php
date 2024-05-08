@@ -9,7 +9,7 @@ if (isset($_POST["logout"])) {
 ?>
 
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar sidebar-light-primary elevation-4">
     <!-- Brand Logo -->
     <a href="../data/admin.php" class="brand-link">
         <i class="bi bi-hospital ml-3"></i>

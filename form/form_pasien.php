@@ -75,7 +75,7 @@ $query_kelurahan = $dbh->query('SELECT * FROM kelurahan');
                     <label for="email" class="col-3 col-form-label">Email</label>
                     <div class="col-8">
                         <input required id="email" name="email" type="email" class="form-control">
-kkkk                    </div>
+                    </div>
                 </div>
 
                 <div class="form-group row">
